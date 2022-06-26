@@ -1,0 +1,12 @@
+# {
+#    "id": "whahn",
+#    "name": "안원휘",
+#    "createdAt": "2022-06-25T02:11:18.289598"
+# }
+
+POST /api/v1/members HTTP/1.1
+Host: localhost:8080
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 41
+
+id=whahn&name=안원휘

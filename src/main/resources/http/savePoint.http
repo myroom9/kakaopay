@@ -1,0 +1,24 @@
+# {
+#    "status": 200,
+#    "code": "20000000",
+#    "message": "success",
+#    "data": {
+#        "memberId": "whahn",
+#        "merchantId": 77,
+#        "merchantName": "whahn-merchant-r",
+#        "businessNameType": "RESTAURANT",
+#        "savedPoint": 101,
+#        "remainPoint": 101,
+#        "savedAt": "2022-06-26T12:30:57.527983"
+#    },
+#    "requestId": "41b6c120-3e41-4013-8b09-9c4bfa10772a",
+#    "requestAt": "2022-06-26T12:30:57.392365",
+#    "responseAt": "2022-06-26T12:30:57.590999"
+# }
+
+POST /api/v1/save-point HTTP/1.1
+Host: localhost:8080
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 63
+
+merchantId=64&barcode=0000000000&transactionType=SAVE&point=101

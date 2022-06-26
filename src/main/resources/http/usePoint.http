@@ -1,0 +1,24 @@
+# {
+#    "status": 200,
+#    "code": "20000000",
+#    "message": "success",
+#    "data": {
+#        "memberId": "whahn",
+#        "merchantId": 77,
+#        "merchantName": "whahn-merchant-r",
+#        "businessNameType": "RESTAURANT",
+#        "usedPoint": 1,
+#        "remainPoint": 0.00,
+#        "usedAt": "2022-06-26T12:30:57"
+#    },
+#    "requestId": "c4b6bf6d-79fc-4058-926a-e123f75363c2",
+#    "requestAt": "2022-06-26T12:32:11.52145",
+#    "responseAt": "2022-06-26T12:32:11.652812"
+#}
+
+POST /api/v1/use-point HTTP/1.1
+Host: localhost:8080
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 60
+
+merchantId=77&barcode=4387225903&transactionType=USE&point=1

@@ -1,0 +1,7 @@
+# {
+#    "memberId": "whahn",
+#    "barcode": "3198267260"
+# }
+
+POST /api/v1/barcodes/members/whahn HTTP/1.1
+Host: localhost:8080

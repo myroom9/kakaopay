@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  db:
+    image: mariadb
+    environment:
+      - MARIADB_USER=root
+      - MARIADB_ROOT_PASSWORD=1234
+      - MARIADB_DATABASE=kakaopay
+    ports:
+      - "3306:3306"
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./:/app/
+    restart: always

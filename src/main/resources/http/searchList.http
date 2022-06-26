@@ -1,0 +1,68 @@
+GET /api/v1/point-history?barcode=4387225903&memberId=whahn&startDate=2022-06-26&endDate=2022-06-26&size=5 HTTP/1.1
+Host: localhost:8080
+
+# {
+#    "status": 200,
+#    "code": "20000000",
+#    "message": "success",
+#    "data": {
+#        "staticInformation": {
+#            "totalCount": 35
+#        },
+#        "pageInformation": {
+#            "currentPage": 1,
+#            "nextPage": 2,
+#            "lastPage": 7
+#        },
+#        "pointHistoryInformation": [
+#            {
+#                "merchantId": 77,
+#                "merchantName": "whahn-merchant-r",
+#                "barcode": "4387225903",
+#                "memberId": "whahn",
+#                "point": 1.00,
+#                "transactionType": "USE",
+#                "approvedAt": "2022-06-26T17:28:57"
+#            },
+#            {
+#                "merchantId": 77,
+#                "merchantName": "whahn-merchant-r",
+#                "barcode": "4387225903",
+#                "memberId": "whahn",
+#                "point": 1.00,
+#                "transactionType": "USE",
+#                "approvedAt": "2022-06-26T17:28:56"
+#            },
+#            {
+#                "merchantId": 77,
+#                "merchantName": "whahn-merchant-r",
+#                "barcode": "4387225903",
+#                "memberId": "whahn",
+#                "point": 1.00,
+#                "transactionType": "USE",
+#                "approvedAt": "2022-06-26T17:28:56"
+#            },
+#            {
+#                "merchantId": 77,
+#                "merchantName": "whahn-merchant-r",
+#                "barcode": "4387225903",
+#                "memberId": "whahn",
+#                "point": 1.00,
+#                "transactionType": "USE",
+#                "approvedAt": "2022-06-26T17:28:55"
+#            },
+#            {
+#                "merchantId": 77,
+#                "merchantName": "whahn-merchant-r",
+#                "barcode": "4387225903",
+#                "memberId": "whahn",
+#                "point": 1.00,
+#                "transactionType": "USE",
+#                "approvedAt": "2022-06-26T17:28:55"
+#            }
+#        ]
+#    },
+#    "requestId": "667dbb60-7641-417a-8fea-4f9716281a86",
+#    "requestAt": "2022-06-26T17:34:49.972802",
+#    "responseAt": "2022-06-26T17:34:50.243157"
+# }
